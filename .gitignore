@@ -1,0 +1,8 @@
+# Installers and archives belong in GitHub Release assets, not Git history.
+*.exe
+*.zip
+*.pdb
+*.log
+.env*
+*.pfx
+*.key
