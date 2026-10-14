@@ -1,0 +1,16 @@
+{
+  "version": "0.1.1-preview.20261013",
+  "tag": "v0.1.1-preview.20261013",
+  "channel": "preview",
+  "url": "https://github.com/jonghyeok/LanPebble-Releases/releases/tag/v0.1.1-preview.20261013",
+  "assets": {
+    "LanPebble-0.1.1-preview.20261013-win-x64-Setup.exe": {
+      "url": "https://github.com/jonghyeok/LanPebble-Releases/releases/download/v0.1.1-preview.20261013/LanPebble-0.1.1-preview.20261013-win-x64-Setup.exe",
+      "sha256": "7667b05435d9dd9171f05bdfe14b447b032c2d180122c78c575815fffb246fbe"
+    },
+    "LanPebble-0.1.1-preview.20261013-win-x64.zip": {
+      "url": "https://github.com/jonghyeok/LanPebble-Releases/releases/download/v0.1.1-preview.20261013/LanPebble-0.1.1-preview.20261013-win-x64.zip",
+      "sha256": "3a52f832ef50423804a84bda36a6b204fdff5ead2224a4110006ddd4db3612ff"
+    }
+  }
+}
