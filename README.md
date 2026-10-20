@@ -20,9 +20,11 @@ Windows 10 버전 2004 이상 / Windows 11, **x64** 환경을 지원합니다. �
 1. PC 앱에서 **파일 공유**를 열고 공유 폴더를 추가한 뒤 공유를 켭니다.
 2. 다른 PC에서는 주변 기기를 선택하고 호스트의 PIN을 입력합니다.
 3. 휴대폰·Mac은 호스트 앱의 **웹 접속**을 켜고 QR/URL로 접속한 뒤 PIN을 입력합니다.
-4. 업로드는 호스트가 허용한 폴더에서 가능합니다.
+4. 새 설정은 **수동 승인(OFF)**이 기본입니다. PIN을 입력한 뒤 호스트가 연결 요청을 승인하면 사용할 수 있습니다. 자동 승인(ON)을 선택할 수도 있습니다. 기존에 저장한 승인 방식은 유지합니다.
+5. 업로드는 호스트가 허용한 폴더에서 가능합니다. 대기열에서 파일과 저장 경로를 확인한 뒤 시작하세요.
+6. **메시지**에서 호스트와 1:1 대화를 나눌 수 있습니다. 대화는 최근 50개까지 메모리에 보관하고 연결 해제·차단·공유 종료 시 삭제합니다. 필요한 대화만 텍스트로 저장할 수 있습니다. Windows 앱은 알림, 웹은 페이지 안 토스트로 새 메시지를 안내합니다.
 
-웹 접속은 HTTP를 사용하므로 신뢰할 수 있는 로컬 네트워크에서 사용하세요. 일반 QR에는 PIN이 포함되지 않습니다.
+웹의 PIN·파일·메시지는 HTTP로 전송되며 암호화되지 않습니다. 신뢰할 수 있는 로컬 네트워크에서만 사용하고 민감한 자료는 공유하지 마세요. 일반 QR에는 PIN이 포함되지 않습니다.
 
 ## 업데이트와 제거
 
@@ -30,4 +32,4 @@ Windows 10 버전 2004 이상 / Windows 11, **x64** 환경을 지원합니다. �
 
 버전별 변경 사항은 `notes/`, 다운로드 URL과 해시는 `versions/`에 저장합니다. `latest-preview.json`과 `latest-stable.json`은 각 배포 채널의 최신 정보를 제공합니다. 해당 채널의 첫 배포 전에는 파일이 없을 수 있습니다.
 
-English: Choose the setup EXE for per-user installation or extract the complete portable ZIP. Close LanPebble before upgrading. Required runtimes are included. Preview builds are unsigned; browser access uses HTTP on trusted local networks. Release assets include SHA-256 checksums.
+English: New settings require manual host approval (OFF); ON enables automatic approval. Messaging is per host connection and memory-only unless explicitly exported. Web alerts are in-page toasts and require the page to stay open. Choose the setup EXE for per-user installation or extract the complete portable ZIP. Close LanPebble before upgrading. Required runtimes are included. Preview builds are unsigned; browser access uses HTTP on trusted local networks. Release assets include SHA-256 checksums.
